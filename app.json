@@ -1,24 +1,57 @@
 {
   "expo": {
-    "name": "my-blank-app",
+    "name": "MOONBEAM Notes",
     "slug": "my-blank-app",
+    "scheme": "moonbeamnotes",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/mb.png",
     "userInterfaceStyle": "light",
+    "androidNavigationBar": {
+      "visible": "sticky"
+    },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+        "backgroundColor": "#080B3D",
+        "foregroundImage": "./assets/mb.png"
+      },
+      "softwareKeyboardLayoutMode": "resize",
+      "package": "com.beyinga.moonbeamnotes",
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/flot.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#080B3D",
+          "imageWidth": 200
+        }
+      ],
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "Allow MoonBeam Notes to access your microphone for voice dictation.",
+          "speechRecognitionPermission": "Allow MoonBeam Notes to convert your speech to text notes."
+        }
+      ],
+      "expo-web-browser",
+      "@react-native-google-signin/google-signin",
+      "expo-audio"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d506f113-fb0e-4309-bd3f-79160d2255d2"
+      }
     }
   }
 }

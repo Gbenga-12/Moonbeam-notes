@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "1052600200237",
+    "project_id": "expo-firebase-9c79c",
+    "storage_bucket": "expo-firebase-9c79c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052600200237:android:ad005c144c2b5add201ca4",
+        "android_client_info": {
+          "package_name": "Expo.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1052600200237-f55t9bk1ucg4kkaki2g59ktkt2495vg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCasXZTWbCMJnBbdRgBbX9Unx9Mk36M2xU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1052600200237-f55t9bk1ucg4kkaki2g59ktkt2495vg6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052600200237:android:ca87b39e3563f0f6201ca4",
+        "android_client_info": {
+          "package_name": "com.beyinga.moonbeamnotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1052600200237-l4hujpqh5d3itrmmre2rmoqginmne8fa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.beyinga.moonbeamnotes",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "1052600200237-f55t9bk1ucg4kkaki2g59ktkt2495vg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCasXZTWbCMJnBbdRgBbX9Unx9Mk36M2xU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1052600200237-f55t9bk1ucg4kkaki2g59ktkt2495vg6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
